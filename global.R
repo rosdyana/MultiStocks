@@ -1,0 +1,6 @@
+library(shiny)
+library(xtable)
+library(quantmod)
+con = gzcon(url('http://www.systematicportfolio.com/sit.gz', 'rb'))
+   source(con)
+close(con)
